@@ -1,4 +1,4 @@
-<!DOCTYPE html><html class="scroll-smooth" lang="id" style="width: 1280px; height: 4280px; overflow: hidden; position: relative;"><head>
+<!DOCTYPE html><html class="scroll-smooth" lang="id"><head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <title>Pura Panataran Dharmaraksaka | Warisan Budaya &amp; Spiritual Bali</title>
@@ -173,44 +173,52 @@
             color: #842c0c;
             border-bottom: 2px solid #842c0c;
         }
+        /* Hide scrollbar for nav */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
     </style>
 <link href="https://lh3.googleusercontent.com/aida/AP1WRLsGT3H9FrE4GbighsWLmFzE5tbzvOJW-xcTyS7wVXbmYdEPXp9JIeSNPsZX3-oAoRqiWROhiOXuVbiflt6akgOiJUnQJX2bc5n3dXlPwCtScOecpcN23niHb5xuPcbeBkXuDVxvXmIdd1LYvaZEm11FjFOoTn2DfJ287GHnbF3yZUaj1kUAoMTN5yJokueRr9hFF8jgsKpAHKOK7aaDBz_1hpBM8LSUGLqSDpppguOVIV8ykWVyhH20sVk" rel="icon" type="image/x-icon">
 </head>
 <body class="bg-surface font-body-md text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed">
 <!-- Top Navigation -->
 <nav class="fixed top-0 w-full z-[100] glass-nav shadow-md shadow-bata-merah/5 border-b border-surface-container">
-<div class="flex justify-between items-center px-margin-desktop h-20 max-w-container-max mx-auto w-full">
-<div class="font-headline-md text-headline-md font-bold text-primary flex items-center gap-2">
+<div class="flex justify-between items-center px-4 md:px-margin-desktop h-20 max-w-container-max mx-auto w-full">
+<div class="font-headline-md text-headline-md font-bold text-primary flex items-center gap-2 shrink-0">
                 Informasi
             </div>
-<div class="hidden md:flex items-center gap-10">
-<a class="nav-link font-label-md text-label-md text-on-surface-variant hover:text-primary pb-1 transition-all duration-300" href="#sejarah">Sejarah</a>
-<a class="nav-link font-label-md text-label-md text-on-surface-variant hover:text-primary pb-1 transition-all duration-300" href="#aturan">Aturan</a>
-<a class="nav-link font-label-md text-label-md text-on-surface-variant hover:text-primary pb-1 transition-all duration-300 active" href="#lokasi">Lokasi</a>
+<div class="flex items-center gap-6 md:gap-10 overflow-x-auto no-scrollbar pl-4 md:pl-0 w-full md:w-auto justify-end">
+<a class="nav-link font-label-md text-label-md text-on-surface-variant hover:text-primary pb-1 transition-all duration-300 whitespace-nowrap" href="#sejarah">Sejarah</a>
+<a class="nav-link font-label-md text-label-md text-on-surface-variant hover:text-primary pb-1 transition-all duration-300 whitespace-nowrap active" href="#aturan">Aturan</a>
+<a class="nav-link font-label-md text-label-md text-on-surface-variant hover:text-primary pb-1 transition-all duration-300 whitespace-nowrap" href="#lokasi">Lokasi</a>
 </div>
 </div>
 </nav>
 <!-- Hero Section -->
-<header class="hero-shader relative h-screen min-h-[700px] w-full overflow-hidden flex items-center justify-center text-center px-margin-mobile">
+<header class="hero-shader relative h-[100svh] min-h-[600px] md:min-h-[700px] w-full overflow-hidden flex items-center justify-center text-center px-4 md:px-margin-mobile mt-10 md:mt-0">
 <div class="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-surface/95"></div>
 <div class="bali-pattern absolute inset-0 opacity-20 pointer-events-none"></div>
 <div class="hero-glow absolute inset-0 pointer-events-none"></div>
 <div class="absolute inset-0 flex items-center justify-center opacity-[0.08] pointer-events-none overflow-hidden">
 <div class="relative w-full h-full flex items-center justify-center animate-[spin_120s_linear_infinite]">
-<span class="material-symbols-outlined text-[1200px] text-sacred-white absolute">nest_eco_leaf</span>
-<span class="material-symbols-outlined text-[1000px] text-sacred-white absolute rotate-45">filter_vintage</span>
-<span class="material-symbols-outlined text-[800px] text-sacred-white absolute rotate-[30deg]">architecture</span>
+<span class="material-symbols-outlined text-[600px] md:text-[1200px] text-sacred-white absolute">nest_eco_leaf</span>
+<span class="material-symbols-outlined text-[500px] md:text-[1000px] text-sacred-white absolute rotate-45">filter_vintage</span>
+<span class="material-symbols-outlined text-[400px] md:text-[800px] text-sacred-white absolute rotate-[30deg]">architecture</span>
 </div>
 </div>
 <div class="relative z-10 max-w-5xl px-4 reveal active">
 <div class="inline-block relative mb-6">
-<span class="material-symbols-outlined text-secondary-fixed text-6xl absolute -top-12 left-1/2 -translate-x-1/2 opacity-60">temple_hindu</span>
-<h1 class="font-headline-xl text-headline-xl text-sacred-white drop-shadow-[0_10px_20px_rgba(0,0,0,0.5)] md:text-[84px] leading-tight mb-2">
+<span class="material-symbols-outlined text-secondary-fixed text-5xl md:text-6xl absolute -top-10 md:-top-12 left-1/2 -translate-x-1/2 opacity-60">temple_hindu</span>
+<h1 class="font-headline-xl text-[40px] leading-tight md:text-headline-xl text-sacred-white drop-shadow-[0_10px_20px_rgba(0,0,0,0.5)] md:text-[84px] md:leading-tight mb-2 mt-4 md:mt-0">
                     Pura Panataran Dharmaraksaka
                 </h1>
-<div class="w-48 h-1 bg-gradient-to-r from-transparent via-secondary-fixed to-transparent mx-auto"></div>
+<div class="w-32 md:w-48 h-1 bg-gradient-to-r from-transparent via-secondary-fixed to-transparent mx-auto"></div>
 </div>
-<p class="font-body-lg text-body-lg text-sacred-white/95 mb-stack-lg tracking-[0.3em] uppercase font-semibold drop-shadow-md">
+<p class="font-body-lg text-sm md:text-body-lg text-sacred-white/95 mb-stack-lg tracking-[0.2em] md:tracking-[0.3em] uppercase font-semibold drop-shadow-md px-2">
                 Warisan Budaya &amp; Spiritual Sejak 1989
             </p>
 </div>
@@ -218,16 +226,16 @@
 <span class="material-symbols-outlined text-sacred-white text-4xl">expand_more</span>
 </div>
 </header>
-<main class="max-w-container-max mx-auto px-margin-desktop space-y-section-gap py-section-gap">
+<main class="max-w-container-max mx-auto px-4 md:px-margin-desktop space-y-16 md:space-y-section-gap py-16 md:py-section-gap">
 <!-- Sejarah Section -->
-<section class="grid grid-cols-1 lg:grid-cols-2 gap-gutter items-start reveal pt-20 active" id="sejarah">
-<div class="space-y-stack-lg">
+<section class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-gutter items-start reveal pt-10 md:pt-20 active" id="sejarah">
+<div class="space-y-6 md:space-y-stack-lg">
 <div class="flex items-center gap-4 text-bata-merah">
-<span class="w-12 h-[1px] bg-bata-merah"></span>
-<span class="font-label-md text-label-md uppercase tracking-widest">Akar Budaya</span>
+<span class="w-8 md:w-12 h-[1px] bg-bata-merah"></span>
+<span class="font-label-md text-xs md:text-label-md uppercase tracking-widest">Akar Budaya</span>
 </div>
-<h2 class="font-headline-lg text-headline-lg text-on-surface">Jejak Spiritual di Tanah Perantauan</h2>
-<div class="font-body-md text-body-md text-on-surface-variant space-y-4 leading-relaxed text-justify expand-content" id="sejarah-content">
+<h2 class="font-headline-lg text-2xl md:text-headline-lg text-on-surface">Jejak Spiritual di Tanah Perantauan</h2>
+<div class="font-body-md text-sm md:text-body-md text-on-surface-variant space-y-4 leading-relaxed text-justify expand-content" id="sejarah-content">
 <p class="">Pura Panataran Dharmaraksaka merupakan simbol ketahanan budaya dan spiritual masyarakat Bali di tanah perantauan Sumatera Utara. Terletak di Dusun II B Desa Pegajahan, pura ini menjadi saksi bisu perjalanan panjang sejarah krama Bali yang bermula dari kebutuhan akan tenaga kerja perkebunan.</p>
 <p class="">Sejarah keberadaan masyarakat Bali di wilayah ini bermula jauh sebelum pura didirikan. Pada tahun 1962, kelompok pertama warga Bali didatangkan sebagai buruh kontrak untuk perkebunan karet milik negara. Namun, arus utama kedatangan terjadi pada tahun 1983 melalui program transmigrasi nasional yang dipicu oleh bencana letusan Gunung Agung yang dahsyat di Bali. Gelombang ini membawa sekitar 60 kepala keluarga yang kemudian ditempatkan di Kebun Melati, sebuah area yang mereka kenang dan namakan sebagai Pondok Bali.</p>
 <p class="">Di bawah naungan rimbunnya pohon sawit dan karet, masyarakat Bali tetap memegang teguh ajaran leluhur. Pada tahun 1989, dengan semangat gotong royong (ngayah), dimulailah pembangunan Pura Panataran Dharmaraksaka. Nama 'Dharmaraksaka' sendiri mengandung makna mendalam sebagai pelindung atau penjaga kebenaran (Dharma). Pura ini tidak hanya berfungsi sebagai tempat pemujaan Sang Hyang Widhi Wasa, tetapi juga sebagai pusat interaksi sosial dan pelestarian seni budaya Bali, memastikan bahwa identitas dan tradisi tetap hidup meski berjarak ribuan kilometer dari pulau asal.</p>
@@ -237,88 +245,86 @@
 <span class="material-symbols-outlined text-sm group-hover:translate-y-1 transition-transform">expand_more</span>
 </button>
 </div>
-<div class="grid grid-cols-2 gap-4 h-[500px] sticky top-28">
+<div class="grid grid-cols-2 gap-2 md:gap-4 h-[300px] md:h-[500px] lg:sticky lg:top-28 mt-8 lg:mt-0">
 <div class="rounded-xl overflow-hidden shadow-lg shadow-paras-stone/10 bento-inner reveal active">
-<img alt="Pura Panataran Dharmaraksaka temple entrance" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AP1WRLvXjl8xahfW-iQTy3LQM4ogCRVi-wx2QFfbf-9Oo7TWFiYYbfwUu7ffrfJYbUyqA8kCKkp2MkYcc35iywlxim75_NmVV9K47tlXt24RnCCgdPWyCZhB9igODkvemVbFCPQFdYv9fuGZyFwcmKCRfxM3mVTDZ9d5mXXxm09yz6QAhcNVv0g42gsReKIx9aEVAm9r8pkZQ_X2k6fOn_FuGXieopZE2Y1EeYIxJuMLZ88NBZCf-5pK-OEYQ3c">
+<img alt="Gerbang utama Pura Panataran Dharmaraksaka yang megah" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VJKa6lpo4I52wTZDsfUTV6StJnvL4SjUFOY1Vbo471C6st5u_NdxkyXPulV6Hx3ErfTt3Af0BDOHb68W5fDD4OxUSbsuhXHC4rYKxmipdeIp54h70RSwkEnTTNiTPj_TS0CuZGQioxrn2H3yHjDKNlfh-0sJLYEnxVgM9oaZkCGsKWQaCzg2TeYGPdNTlU-Pcyg7q0Dl4mFRjkuAzrVxVZFhQyLfu2FTVG2W3edCrgxXdM38pU3LBKv9Y">
 </div>
-<div class="space-y-4">
-<div class="h-1/2 rounded-xl overflow-hidden shadow-lg shadow-paras-stone/10 bento-inner reveal active">
-<img alt="Intricate temple carvings" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AP1WRLvii9LJHh7SZ12HlndWTBDMfYqDGUVDNXczJGtk7FOSAjIOe-bmbuXYeZ2vVBl2t21EI1i-WnmjMJjjY0hwYckiPdEZG8gxEtTeFlrmT2XdM6tyMuR19Kq-xVQjVlSU7tGfu8U1YrRu2YdiOfGzR6W8VETuxMF54ZW5gzppflQQG_24pBRib83IRTHD89IomDlrPptZXShyXD2jV_r325ov0D9fF85u-2L3iEs8zR2b-gUPm6aj7BoKUQ">
+<div class="space-y-2 md:space-y-4">
+<div class="md:h-1/2 rounded-xl overflow-hidden shadow-lg shadow-paras-stone/10 bento-inner reveal active h-full">
+<img alt="Papan nama Pura Panataran Dharmaraksaka di Desa Pegajahan" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1Xnfxup3TezzEGCBaAQD0eA7wcFO8mpXDoJ14X5FnyYkdEbaEXIlU10f4A4MwloIt97ldxLe5o7P6iKZ2dHcIrPCeAOvFIEAe4zMU7PZz6k4FI350OTb8xKIKAE3aUIhzVNRhP68Py6PB33fTiduVRgZvkykPBxtJCCueIDv96eSeppxHWN3vR_1zfQZjX0joFmp8pEtUjg_wI30J8qobjRR6CmjrdK2Ox_uqMHa1yym-EFZ6-27IIeA8M">
 </div>
-<div class="h-1/2 rounded-xl overflow-hidden shadow-lg shadow-paras-stone/10 bento-inner reveal active">
-<img alt="Spiritual area view" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AP1WRLv4hPC1C2-jxqiAS3_WNhjYB9tfbIvdFGA37JoOGdfAYj7WVL_PlBa0xhy8eKe5PVSEG6LE2O4l7gmyADuR8y-7NXvRaFYW_S2WC4ZsGJDcVyokPRM78NwSgYRTgpI-ihjaEcztuEe6au2BJLG-S5iAzgYneR1HeYjs5ZE_NKgU2B16cQ2ErAgTjuEsvRWApp0xuDXynJlJih511IWJFDp4mdBHdD3LIARtz83O0dWpXN5I0E0RCyY9s_0">
-</div>
+
 </div>
 </div>
 </section>
 <!-- Divider -->
-<div class="mandala-divider reveal active">
+<div class="mandala-divider reveal active my-8 md:my-0">
 <div class="mandala-icon">
-<span class="material-symbols-outlined text-bata-merah text-2xl" style="font-variation-settings: 'FILL' 1;">shutter_speed</span>
+<span class="material-symbols-outlined text-bata-merah text-xl md:text-2xl" style="font-variation-settings: 'FILL' 1;">shutter_speed</span>
 </div>
 </div>
 <!-- Pondok Bali & Pondok Agung -->
-<section class="bg-surface-container-low rounded-3xl p-stack-lg md:p-16 flex flex-col md:flex-row gap-12 items-center border border-paras-stone/10 reveal active">
+<section class="bg-surface-container-low rounded-3xl p-6 md:p-16 flex flex-col md:flex-row gap-8 md:gap-12 items-center border border-paras-stone/10 reveal active">
 <div class="w-full md:w-1/2 rounded-2xl overflow-hidden shadow-2xl">
-<img alt="Area Pondok Bali and temple grounds" class="w-full h-auto" src="https://lh3.googleusercontent.com/aida/AP1WRLswHzQ94_JCqp8N5YcL8AE8Hgodf6NoLwf3cX8lUp_DgTdjPhxjj4-gNWnJ_ayhLT0NRMGH6I8gJgfC4LiN9C6Qqr7wL0JdMLKi-gyI-AAWDgdygyquKI3zqLcxGzkGRlz16vg_rgV8Z78SJkwIYkHwWy0z9ZIo0X9UHQsSz68Tgs6-dRr44joXSyIJRA7mhtE8pmxiJ0YGfIg7Z1prYx2ukLrUi0gTdnle3-8TPBLsNNURnmBEl1nqeQ">
+<img alt="Suasana sakral di dalam area Pura Panataran Dharmaraksaka" class="w-full h-auto object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1W1KodHAtwqyqA1FTBFSLDutZ4GiK5j4DKVDrRw8moQAMQDWSOLDUd1l9oZ6_bvCRQ2pakYDMc_VnQgDtcsutS71kT4giKFHrEiDixNeEhzJX0loLMsuJfFe01y04JW25iVBInj_1PE5jLSLR2nZKspadb2BP2_Zi0Kwe7u0s1L0553GLrs1OKFxMAKtqrtqTngBz0KKLoDIUSFMw-l74P7NQUthnBA4X-HUuoMZ5K72eAv2e2dsAwhVw">
 </div>
-<div class="w-full md:w-1/2 space-y-stack-md">
-<h2 class="font-headline-lg text-headline-lg text-primary">Pondok Agung: Mengenang Akar</h2>
-<p class="font-body-md text-body-md text-on-surface-variant text-justify">Sekitar 60 Kepala Keluarga tiba di Kebun Melati, yang kemudian dinamakan Pondok Bali. Nama Pondok Agung diberikan khusus untuk mengenang mereka yang menjadi korban letusan Gunung Agung, memastikan identitas mereka tetap hidup di tanah baru.</p>
-<div class="p-6 bg-sacred-white border-l-4 border-bata-merah italic font-body-md text-on-surface-variant shadow-sm">
+<div class="w-full md:w-1/2 space-y-4 md:space-y-stack-md">
+<h2 class="font-headline-lg text-2xl md:text-headline-lg text-primary text-center md:text-left">Pondok Agung: Mengenang Akar</h2>
+<p class="font-body-md text-sm md:text-body-md text-on-surface-variant text-justify">Sekitar 60 Kepala Keluarga tiba di Kebun Melati, yang kemudian dinamakan Pondok Bali. Nama Pondok Agung diberikan khusus untuk mengenang mereka yang menjadi korban letusan Gunung Agung, memastikan identitas mereka tetap hidup di tanah baru.</p>
+<div class="p-4 md:p-6 bg-sacred-white border-l-4 border-bata-merah italic font-body-md text-sm md:text-base text-on-surface-variant shadow-sm">
                     "Mereka memilih Sumatera Utara dengan harapan kondisi yang lebih baik, tanpa pernah melupakan tradisi leluhur."
                 </div>
 </div>
 </section>
 <!-- Aturan Masuk -->
-<section class="reveal pt-20 active" id="aturan">
-<div class="text-center max-w-2xl mx-auto mb-16">
-<h2 class="font-headline-lg text-headline-lg mb-4">Adab &amp; Kesucian Pura</h2>
-<p class="font-body-md text-body-md text-on-surface-variant">Menjaga 'Suci' adalah inti dari kunjungan ke tempat sakral. Mohon perhatikan aturan berikut sebelum memasuki area utama.</p>
+<section class="reveal pt-10 md:pt-20 active" id="aturan">
+<div class="text-center max-w-2xl mx-auto mb-10 md:mb-16">
+<h2 class="font-headline-lg text-2xl md:text-headline-lg mb-4">Adab &amp; Kesucian Pura</h2>
+<p class="font-body-md text-sm md:text-body-md text-on-surface-variant px-2">Menjaga 'Suci' adalah inti dari kunjungan ke tempat sakral. Mohon perhatikan aturan berikut sebelum memasuki area utama.</p>
 </div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-<div class="bg-sacred-white p-8 border border-paras-stone/20 rounded-xl bento-inner group reveal active">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+<div class="bg-sacred-white p-6 md:p-8 border border-paras-stone/20 rounded-xl bento-inner group reveal active text-center md:text-left">
 <span class="material-symbols-outlined text-4xl text-bata-merah mb-4 group-hover:scale-110 transition-transform">texture</span>
-<h3 class="font-headline-md text-headline-md mb-2">Anteng</h3>
-<p class="font-body-md text-on-surface-variant">Setiap pengunjung diwajibkan mengenakan kain pengikat pinggang sebagai simbol kesiapan diri dan penyelarasan energi.</p>
+<h3 class="font-headline-md text-xl md:text-headline-md mb-2">Anteng</h3>
+<p class="font-body-md text-sm md:text-base text-on-surface-variant">Setiap pengunjung diwajibkan mengenakan kain pengikat pinggang sebagai simbol kesiapan diri dan penyelarasan energi.</p>
 </div>
-<div class="bg-sacred-white p-8 border border-paras-stone/20 rounded-xl bento-inner group reveal active">
+<div class="bg-sacred-white p-6 md:p-8 border border-paras-stone/20 rounded-xl bento-inner group reveal active text-center md:text-left">
 <span class="material-symbols-outlined text-4xl text-bata-merah mb-4 group-hover:scale-110 transition-transform">water_drop</span>
-<h3 class="font-headline-md text-headline-md mb-2">Tirta</h3>
-<p class="font-body-md text-on-surface-variant">Penyucian diri melalui percikan air suci belukat untuk membersihkan raga dan jiwa dari hal negatif.</p>
+<h3 class="font-headline-md text-xl md:text-headline-md mb-2">Tirta</h3>
+<p class="font-body-md text-sm md:text-base text-on-surface-variant">Penyucian diri melalui percikan air suci belukat untuk membersihkan raga dan jiwa dari hal negatif.</p>
 </div>
-<div class="bg-sacred-white p-8 border border-paras-stone/20 rounded-xl bento-inner group reveal active">
+<div class="bg-sacred-white p-6 md:p-8 border border-paras-stone/20 rounded-xl bento-inner group reveal active text-center md:text-left">
 <span class="material-symbols-outlined text-4xl text-bata-merah mb-4 group-hover:scale-110 transition-transform">local_florist</span>
-<h3 class="font-headline-md text-headline-md mb-2">Bunga &amp; Dupa</h3>
-<p class="font-body-md text-on-surface-variant">Penyelipan bunga di telinga dan aroma dupa membantu memfokuskan pikiran memasuki ruang ibadah.</p>
+<h3 class="font-headline-md text-xl md:text-headline-md mb-2">Bunga &amp; Dupa</h3>
+<p class="font-body-md text-sm md:text-base text-on-surface-variant">Penyelipan bunga di telinga dan aroma dupa membantu memfokuskan pikiran memasuki ruang ibadah.</p>
 </div>
-<div class="md:col-span-3 bg-inverse-surface text-sacred-white p-12 rounded-2xl flex flex-col md:flex-row items-center gap-8 border-t-4 border-bata-merah reveal active">
+<div class="md:col-span-3 bg-inverse-surface text-sacred-white p-8 md:p-12 rounded-2xl flex flex-col md:flex-row items-center gap-6 md:gap-8 border-t-4 border-bata-merah reveal active text-center md:text-left">
 <div class="md:w-2/3">
-<h3 class="font-headline-lg text-headline-lg mb-4">Ketentuan Khusus</h3>
-<p class="font-body-md opacity-80 mb-6">Demi menjaga kesucian spiritual (Kuntaka), wanita yang sedang dalam masa haid tidak diizinkan memasuki area pura. Kami memohon pengertian atas bentuk penghormatan tradisi ini.</p>
+<h3 class="font-headline-lg text-2xl md:text-headline-lg mb-4">Ketentuan Khusus</h3>
+<p class="font-body-md text-sm md:text-base opacity-80 mb-0 md:mb-6">Demi menjaga kesucian spiritual (Kuntaka), wanita yang sedang dalam masa haid tidak diizinkan memasuki area pura. Kami memohon pengertian atas bentuk penghormatan tradisi ini.</p>
 </div>
-<div class="md:w-1/3 flex justify-center">
-<span class="material-symbols-outlined text-[120px] opacity-20">do_not_disturb_on</span>
+<div class="md:w-1/3 flex justify-center mt-4 md:mt-0">
+<span class="material-symbols-outlined text-[80px] md:text-[120px] opacity-20">do_not_disturb_on</span>
 </div>
 </div>
 </div>
 </section>
 <!-- Lokasi Section -->
-<section class="reveal pt-20 max-w-container-max mx-auto active" id="lokasi">
-<div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter items-stretch">
-<div class="bg-surface-container-low p-12 rounded-3xl border border-paras-stone/10 flex flex-col justify-center space-y-8">
-<div class="space-y-4">
-<h2 class="font-headline-lg text-headline-lg text-on-surface">Lokasi</h2>
-<p class="font-body-md text-on-surface-variant leading-relaxed">
+<section class="reveal pt-10 md:pt-20 max-w-container-max mx-auto active" id="lokasi">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-gutter items-stretch">
+<div class="bg-surface-container-low p-6 md:p-12 rounded-3xl border border-paras-stone/10 flex flex-col justify-center space-y-6 md:space-y-8">
+<div class="space-y-4 text-center md:text-left">
+<h2 class="font-headline-lg text-2xl md:text-headline-lg text-on-surface">Lokasi</h2>
+<p class="font-body-md text-sm md:text-base text-on-surface-variant leading-relaxed">
                             Pura Panataran Dharmaraksaka berdiri sebagai pusat spiritual di tengah lingkungan yang asri, mudah diakses oleh pengunjung yang ingin bersembahyang maupun berwisata religi.
                         </p>
 </div>
-<div class="space-y-8">
-<div class="flex items-start gap-4">
-<span class="material-symbols-outlined text-primary text-3xl mt-1">location_on</span>
+<div class="space-y-6 md:space-y-8 flex flex-col items-center md:items-start text-center md:text-left">
+<div class="flex flex-col md:flex-row items-center md:items-start gap-2 md:gap-4">
+<span class="material-symbols-outlined text-primary text-3xl md:mt-1">location_on</span>
 <div>
-<h4 class="font-label-md text-label-md text-primary uppercase tracking-wider mb-2">Alamat Utama</h4>
-<p class="font-headline-md text-headline-md text-on-surface leading-tight">
+<h4 class="font-label-md text-xs md:text-label-md text-primary uppercase tracking-wider mb-2">Alamat Utama</h4>
+<p class="font-headline-md text-lg md:text-headline-md text-on-surface leading-tight">
                                     Dusun II B Desa Pegajahan,<br>
                                     Kecamatan Pegajahan,<br>
                                     Kabupaten Serdang Bedagai,<br>
@@ -326,37 +332,37 @@
                                 </p>
 </div>
 </div>
-<div class="pt-4">
-<a class="inline-flex items-center gap-2 bg-primary text-sacred-white px-8 py-3 rounded-full font-label-md hover:bg-primary-container transition-colors shadow-lg" href="https://maps.google.com/?q=Pura+Panataran+Dharmaraksaka+Pegajahan" target="_blank">
+<div class="pt-2 md:pt-4">
+<a class="inline-flex items-center gap-2 bg-primary text-sacred-white px-6 md:px-8 py-3 rounded-full font-label-md text-sm md:text-base hover:bg-primary-container transition-colors shadow-lg" href="https://maps.google.com/?q=Pura+Panataran+Dharmaraksaka+Pegajahan" target="_blank">
 <span class="material-symbols-outlined">directions</span>
                                 Petunjuk Arah
                             </a>
 </div>
 </div>
 </div>
-<div class="w-full h-[450px] lg:h-auto rounded-3xl overflow-hidden shadow-lg border border-paras-stone/10">
+<div class="w-full h-[300px] md:h-[450px] lg:h-auto rounded-3xl overflow-hidden shadow-lg border border-paras-stone/10">
 <iframe allowfullscreen="" height="100%" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.564321456789!2d98.98765432109876!3d3.456789012345678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303167890abcdef1%3A0x1234567890abcdef!2sPura%20Panataran%20Dharmaraksaka!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid" style="border:0;" width="100%"></iframe>
 </div>
 </div>
 </section>
 </main>
-<footer class="bg-inverse-surface dark:bg-candi-charcoal w-full pt-section-gap pb-stack-lg border-t border-paras-stone/20">
-<div class="flex flex-col items-center gap-stack-lg px-margin-desktop w-full max-w-container-max mx-auto text-center">
-<div class="font-headline-md text-headline-md text-sacred-white">Pura Panataran Dharmaraksaka</div>
-<div class="flex flex-wrap justify-center gap-8">
-<a class="font-body-md text-body-md text-surface-variant hover:text-secondary-fixed-dim transition-colors" href="#">Kebijakan Privasi</a>
-<a class="font-body-md text-body-md text-surface-variant hover:text-secondary-fixed-dim transition-colors" href="#">Pedoman Pengunjung</a>
-<a class="font-body-md text-body-md text-surface-variant hover:text-secondary-fixed-dim transition-colors" href="#">Arsip Sejarah</a>
+<footer class="bg-inverse-surface dark:bg-candi-charcoal w-full pt-16 md:pt-section-gap pb-8 md:pb-stack-lg border-t border-paras-stone/20">
+<div class="flex flex-col items-center gap-6 md:gap-stack-lg px-4 md:px-margin-desktop w-full max-w-container-max mx-auto text-center">
+<div class="font-headline-md text-xl md:text-headline-md text-sacred-white">Pura Panataran Dharmaraksaka</div>
+<div class="flex flex-col md:flex-row flex-wrap justify-center gap-4 md:gap-8">
+<a class="font-body-md text-sm md:text-body-md text-surface-variant hover:text-secondary-fixed-dim transition-colors" href="#">Kebijakan Privasi</a>
+<a class="font-body-md text-sm md:text-body-md text-surface-variant hover:text-secondary-fixed-dim transition-colors" href="#">Pedoman Pengunjung</a>
+<a class="font-body-md text-sm md:text-body-md text-surface-variant hover:text-secondary-fixed-dim transition-colors" href="#">Arsip Sejarah</a>
 </div>
-<div class="flex items-center gap-6 mt-4">
+<div class="flex items-center justify-center gap-6 mt-2 md:mt-4">
 <a class="group transition-all hover:scale-110" href="https://www.instagram.com/kknpegajahan25?igsh=MXZ2a3p4NzdteGZk" target="_blank">
-<svg class="w-7 h-7 fill-surface-variant group-hover:fill-secondary-fixed-dim" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
+<svg class="w-6 h-6 md:w-7 md:h-7 fill-surface-variant group-hover:fill-secondary-fixed-dim" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"></path></svg>
 </a>
 <a class="group transition-all hover:scale-110" href="https://www.tiktok.com/@kknpegajahan25?_r=1&amp;_t=ZS-97YWp6K127W" target="_blank">
-<svg class="w-7 h-7 fill-surface-variant group-hover:fill-secondary-fixed-dim" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.03 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.9-.32-1.98-.23-2.81.31-.75.42-1.24 1.11-1.46 1.89-.26.82-.12 1.71.35 2.44.54.81 1.5 1.32 2.43 1.3 1.31-.04 2.41-1.06 2.65-2.34.03-3.91-.03-7.81-.03-11.72.04-.13.05-.26.05-.39z"></path></svg>
+<svg class="w-6 h-6 md:w-7 md:h-7 fill-surface-variant group-hover:fill-secondary-fixed-dim" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.03 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.9-.32-1.98-.23-2.81.31-.75.42-1.24 1.11-1.46 1.89-.26.82-.12 1.71.35 2.44.54.81 1.5 1.32 2.43 1.3 1.31-.04 2.41-1.06 2.65-2.34.03-3.91-.03-7.81-.03-11.72.04-.13.05-.26.05-.39z"></path></svg>
 </a>
 </div>
-<p class="font-body-md text-body-md text-surface-variant/60 max-w-lg mt-4">
+<p class="font-body-md text-xs md:text-sm text-surface-variant/60 max-w-lg mt-4 mx-auto px-4">
                 COPYRIGHT ©2025, Tim KKN Desa Pegajahan UNIMED 2025.
             </p>
 </div>
@@ -462,4 +468,4 @@
     </script>
 
 
-<div id="snapdom-sandbox" data-snapdom-sandbox="true" aria-hidden="true" style="position: absolute; left: -9999px; top: -9999px; width: 0px; height: 0px; overflow: hidden;"></div></body></html>
+</body></html>
